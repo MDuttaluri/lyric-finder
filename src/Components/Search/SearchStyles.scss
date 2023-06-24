@@ -1,0 +1,87 @@
+.youtube--links{
+    display: grid;
+    margin: 10px;
+    text-align: center;
+    gap: 5px;
+}
+
+input{
+    font-size: 16px;
+    border : none;
+    border-bottom: solid 1px black;
+    outline: none;
+   
+}
+
+.overlay{
+    z-index: 100;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.82);
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    display: grid;
+        justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+[hidden]{
+    display:none;
+  }
+.alert{
+    width: 50%;
+    text-align: center;
+}
+
+.otherlinks{
+    display: grid;
+    margin: 10px;
+    grid-template-columns: auto auto;
+    gap: 5px;
+}
+@media screen and (max-width:650px){
+    .actLyrics{
+        margin : 5px;
+        padding : 5px;
+    }
+    .otherlinks{
+        width: 80%;
+        text-align: center;
+        margin: 10px 10px;
+    }
+    .alert{
+        width: 80%;
+        text-align: center;
+    }
+    .highlights{
+        text-align: center;
+    }
+}
+
+button{
+    width: fit-content;
+    margin : 15px;
+    height:30px;
+    border: 0;
+    color:white;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: black;
+    transition: font-size 0.2s;
+    &:hover{
+        font-size: large;
+    }
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    width: fit-content;
+    font-size: medium;
+    transition: font-size 0.2s;
+    &:hover{
+        font-size: large;
+    }
+}

@@ -1,0 +1,18 @@
+.centerDiv__outer{
+    display: flex;
+    justify-content: center;
+}
+
+
+.centerDiv__outer--grid{
+    display: grid;
+    justify-content: center;
+    place-items: center;
+}
+
+
+.highlights{
+    color:black;
+    font-size: large;
+    font-weight: bolder;
+}
